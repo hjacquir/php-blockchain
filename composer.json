@@ -1,0 +1,15 @@
+{
+  "require": {
+    "phpunit/phpunit": "^7",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hj\\": "src/Hj/",
+      "Hj\\Tests\\": "tests/Hj/"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^7"
+    }
+  }
+}
